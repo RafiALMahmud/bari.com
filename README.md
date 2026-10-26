@@ -1,15 +1,24 @@
-# bari: AI housing assistant for students in Dhaka
+# bari.com
 
-**An AI assistant that helps university students in Dhaka, Bangladesh find safe, affordable housing. It
-searches listings, safety reviews and a community forum in English and Bangla, shows where every answer
-comes from, and never books anything without the student's approval.**
+> Student-focused housing in Dhaka, with property discovery, owner communication and an AI assistant that asks before booking.
 
-**Live demo:** https://bari-mad-lad.vercel.app
-(log in as `student@example.com`, password `bari-demo-123`)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![React](https://img.shields.io/badge/React-149ECA?style=flat-square&logo=react&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langgraph&logoColor=white)
 
-![Python](https://img.shields.io/badge/Python-3.12-blue) ![FastAPI](https://img.shields.io/badge/FastAPI-backend-009688)
-![React](https://img.shields.io/badge/React-18-61DAFB) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-pgvector-336791)
-![LangGraph](https://img.shields.io/badge/LangGraph-agent-1C3C3C) ![Vercel](https://img.shields.io/badge/Deployed-Vercel-black)
+**[Live demo](https://bari-two.vercel.app/)** · **[GitHub repository](https://github.com/RafiALMahmud/bari.com)** · [Run locally](#run-it-locally) · [Architecture](#how-it-works) · [Technical details](#technical-details) · [Limitations](#limitations-and-next-steps)
+
+An AI assistant that helps university students in Dhaka, Bangladesh find safe, affordable housing. It searches listings, safety reviews and a community forum in English and Bangla, shows where every answer comes from, and never books anything without the student's approval.
+
+| Explore the platform | Read the implementation notes |
+|---|---|
+| Housing discovery and maps | [Browse filters and nearby places](#browse-filters-map-pins-and-nearby-places) |
+| Property-owner operations | [Owner dashboard](#owner-dashboard) |
+| Reservations and history | [Renter booking management](#renter-booking-management) |
+| Moderation and follow-up | [Reports and investigations](#reports-and-investigations) |
+| Evaluation and trade-offs | [Results](#results) · [Limitations](#limitations-and-next-steps) |
+
+**Demo access:** log in as `student@example.com` with password `bari-demo-123`.
+
+**Project context:** this repository is a fork of [MadLad10/bari.com](https://github.com/MadLad10/bari.com). The existing project history, evaluation notes and [credits](#credits) are retained below. The live preview may depend on backend and provider configuration; consult the technical documentation for local operation.
 
 ---
 
